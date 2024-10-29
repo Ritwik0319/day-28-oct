@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // TASK 1
+        // USING TERNARY OPERATOR
+
+        var day = prompt("Enter a Week Day [LOWER CASE ONLY]");
+        var b = day == "monday" ? "Start your week strong!" :
+                day == "tuesday" ? "Keep going!" :
+                day == "wednesday" ? "Halfway there!" :
+                day == "thursday" ? "Almost the weekend!" :
+                day == "friday" ? "Happy Friday!" :
+                day == "saturday" ? "Enjoy your week end!" :
+                day == "sunday" ? "Enjoy your week end!" :"INVALID - Enter a valid Week Day";
+        console.log(day+" - "+b);
+
+
+
+        // TASK 1
+        // USING CONDITIONAL STATEMENT
+
+        // var day =prompt("Enter a Week Day [LOWER CASE ONLY]");
+        // if (day == "monday") {
+        //     console.log(day+"-Start your week strong!");
+        // }
+        // else if (day == "tuesday") {
+        //     console.log(day+"-Keep going!");
+        // }
+        // else if (day == "wednesday") {
+        //     console.log(day+"-Halfway there!");
+        // }
+        // else if (day == "thursday") {
+        //     console.log(day+"-Almost the weekend!");
+        // }
+        // else if (day == "friday") {
+        //     console.log(day+"-Happy Friday!");
+        // }
+        // else if (day == "saturday" || day=="sunday") {
+        //     console.log(day+"-Enjoy your week end!");
+        // }
+        // else {
+        //     console.log(day+"-Invalid-Enter a valid week day");
+        // }
+
+
+        // TASK 1
+        // USING SWITCH CASE
+
+        // var day = prompt("Enter a Week day [use lower case]");
+
+        // switch (day) {
+        //     case "monday":
+        //         console.log(day+" -Start your week strong!");
+        //         break;
+        //     case "tuesday":
+        //         console.log(day+"-Keep going!");
+        //         break;
+        //     case "wedensday":
+        //         console.log(day+"-Halfway there!");
+        //         break;
+        //     case "thursday":
+        //         console.log(day+"-Almost the weekend!");
+        //         break;
+        //     case "friday":
+        //         console.log(day+"-Happy Friday!");
+        //         break;
+        //     case "saturday":
+        //         console.log(day+"-Enjoy your weekend!");
+        //         break;
+        //     case "sunday":
+        //         console.log(day+"-Enjoy your weekend!");
+        //         break;
+        //     default:
+        //         console.log(day+"-Invaild - Enter a valid day");
+
+        // }
+
+
+        // TASK 2        
+
+        // USING TERNARY OPERATOR
+
+        // var color=prompt("Enter Trafic Signal color [lowercase only]");
+        // var newcolor=color=="red"?"STOP":
+        //             color=="yellow"?"GET READY":
+        //             color=="green"?"GO":
+        //             "Enter a valid color";
+        //             console.log(color+" - "+newcolor);
+
+
+        // TASK 2        
+        // USING CONDITIONAL STATEMENT
+
+        // var color=prompt("Enter Trafic Signal color [lowercase only]");
+        // if(color=="red"){
+        //     console.log(color+" - STOP");  
+        // }
+        // else if(color=="yellow"){
+        //     console.log(color+" - GET READY");  
+        // }
+        // else if(color=="greem"){
+        //     console.log(color+" - GO");  
+        // }
+        // else{
+        //     console.log(color+" - enter a valid color");
+
+        // }
+
+
+
+        // TASK 2  
+        // USING SWITCH CASE
+
+        // var color = prompt("Enter Trafic Signal color [lowercase only]");
+
+        // switch (color) {
+        //     case "red":
+        //         console.log(color + " - STOP");
+        //         break;
+        //     case "yellow":
+        //         console.log(color + " - GET READY");
+        //         break;
+        //     case "green":
+        //         console.log(color + " - GO");
+        //         break;
+        //     default:
+        //         console.log(color + " - enter a valid color");
+
+        // }
+
+
+
+        // TASK 3
+        // USING TERNARY OPERATOR
+
+        // var amt = +prompt("Enter Total Amount");
+        // var disc = amt <= 50 ? "No Discount" :
+        //            amt > 50 && amt <= 100 ? "5% - Discount" :
+        //            amt > 100 && amt <= 200 ? "10% - Discount" :
+        //            amt > 200 ? "15% Discount" : "Enter a valid Amount";
+        //         console.log("Amount =" + "$" + amt, disc); 
+
+
+
+        // TASK 3
+        // USING CONDITIONAL STATEMENT
+
+        // var amt = +prompt("Enter Total Amount");
+        // if(amt<=50){
+        //     console.log("Amount =" + "$" + amt+" No Discount");
+        // }
+        // else if(amt>50&&amt<=100){
+        //     console.log("Amount =" + "$" + amt+" 5% - Discount");
+        // }
+        // else if(amt>100&&amt<=200){
+        //     console.log("Amount =" + "$" + amt+" 10% - Discount");
+        // }
+        // else if(amt>200){
+        //     console.log("Amount =" + "$" + amt+" 15% - Discount");
+        // }
+        // else{
+        //     console.log(amt+" Enter a Valid Amount");
+        // }
+
+
+
+
+        // TASK 3
+        // USING SWITCH CASE
+
+
+
+
+
+        // TASK 4
+        // USING TERNARY OPERATOR
+        // var dish=prompt("MENU- biryani, shawarma, fride rice & veg pulao")
+        // var price=dish=="biryani"?"Price=350/-":
+        //              dish=="shawarma"?"Price=130/-":
+        //              dish=="fride rice"?"Price=280/-":
+        //              dish=="veg pulao"?"Price=200/-":"Enter an valid dish name";
+        //              console.log(dish,price);
+
+
+
+        // TASK 4
+        // USING CONDITIONAL STATEMENT
+
+        // var dish=prompt("MENU- biryani, shawarma, fride rice & veg pulao");
+        // if(dish=="biryani"){
+        //     console.log(dish+" Price=350/-");  
+        // }
+        // else if(dish=="shawarma"){
+        //     console.log(dish+" Price=130/-");  
+        // }
+        // else if(dish=="fride rice"){
+        //     console.log(dish+" Price=280/-");  
+        // }
+        // else if(dish=="veg pulao"){
+        //     console.log(dish+" Price=200/-");  
+        // }
+        // else{
+        //     console.log(dish+" Enter an valid dish name");
+
+        // }
+
+
+
+
+
+
+        // TASK 4
+        // USING SWITCH CASE
+
+        // var dish=prompt("MENU- biryani, shawarma, fride rice & veg pulao");
+
+        // switch(dish) {
+        //     case "biryani":
+        //     console.log(dish+" Price=350/-"); 
+        //     break;
+        //     case "shawarma":
+        //     console.log(dish+" Price=130/-"); 
+        //     break;
+        //     case "fride rice":
+        //     console.log(dish+" Price=280/-"); 
+        //     break;
+        //     case "veg pulao":
+        //     console.log(dish+" Price=200/-"); 
+        //     break;
+        //     default:
+        //         console.log(dish+" Enter an valid dish name");
+        // }
+
+
+        // TASK 4
+        // USING CONDITIONAL STATEMENT
+
+        // var num1 = +prompt("Enter number 1");
+        // var num2 = +prompt("Enter number 2");
+        // var opp = prompt("Enter a valid operator");
+        
+        // if(opp=="+"){
+        //     console.log("Addition of two numbers =", num1 + num2);            
+        // }
+        // else if(opp=="-"){
+        //     console.log("Substraction of two numbers =", num1 - num2);
+        // }
+        // else if(opp=="*"){
+        //     console.log("Multiplication of two numbers =", num1 * num2);
+        // }
+        // else if(opp=="/"){
+        //     console.log("Division of two numbers =", num1 / num2);
+        // }
+        // else if(opp=="%"){
+        //     console.log("Remainder of two numbers =", num1 % num2);
+        // }
+        // else if(opp=="**"){
+        //     console.log("Exponent power of two numbers =", num1 ** num2);
+        // }
+        // else{
+        //     console.log("Enter valid numbers and opperator");
+        // }
+
+        // TASK 4
+        // USING SWITCH CASE
+
+        // var num1 = +prompt("Enter number 1");
+        // var num2 = +prompt("Enter number 2");
+        // var opp = prompt("Enter a valid operator");
+
+
+        // switch (opp) {
+        //     case "+":
+        //         console.log("Addition of two numbers =", num1 + num2);
+        //         break;
+        //     case "-":
+        //         console.log("Substraction of two numbers =", num1 - num2);
+        //         break;
+        //     case "*":
+        //         console.log("Multiplication of two numbers =", num1 * num2);
+        //         break;
+        //     case "/":
+        //         console.log("Division of two numbers =", num1 / num2);
+        //         break;
+        //     case "%":
+        //         console.log("Remainder of two numbers =", num1 % num2);
+        //         break;
+        //     case "**":
+        //         console.log("Exponent power of two numbers =", num1 ** num2);
+        //         break;
+        //     default:
+        //         console.log("Enter valid numbers and opperator");
+
+        // }
+    </script>
+</body>
+
+</html>
